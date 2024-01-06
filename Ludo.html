@@ -1,0 +1,394 @@
+<html>
+    <head>
+        <title>Ludo Box</title>
+        <style>
+            table{
+                border-collapse:collapse;
+                
+            }
+            .first1{
+                position: absolute;
+                top:8px;               
+                width:134px;
+                height:135px;
+                border:33px solid red;
+            }
+
+             .sq1{                
+                margin:10px 0 0 10px;
+                height:30px;
+                width:30px;
+                border:1px solid red;
+                border-radius:8px;
+                background-color: red;
+             }
+             .sq2{                
+                margin:-33px 0 0 95px;
+                height:30px;
+                width:30px;
+                border:1px solid red;
+                background-color: red;
+                border-radius:8px;
+             }
+              .sq3{                
+                margin:50px 0 0 10;
+                height:30px;
+                width:30px;
+                border:1px solid red;
+                background-color: red;
+
+                border-radius:8px;
+             }
+             .sq4{                
+                margin:-33px 0 0 95;
+                height:30px;
+                width:30px;
+                border:1px solid red;
+                background-color: red;
+
+                border-radius:8px; 
+             }
+
+
+
+
+            .first2{
+                position: absolute;
+                margin-left:300px;
+                top:8px;               
+                width:134px;
+                height:135px;
+                border:33px solid green;
+            }
+
+
+            .sq5{                
+                margin:10px 0 0 10px;
+                height:30px;
+                width:30px;
+                border-radius:8px;
+                border:1px solid green;
+                background-color: green;
+             }
+             .sq6{                
+                margin:-33px 0 0 95px;
+                height:30px;
+                width:30px;               
+                border-radius:8px;
+                border:1px solid green;
+                background-color: green;
+             }
+              .sq7{                
+                margin:50px 0 0 10;
+                height:30px;
+                width:30px;
+                border:1px solid green;
+                background-color: green;
+
+                border-radius:8px;
+             }
+             .sq8{                
+                margin:-33px 0 0 95;
+                height:30px;
+                width:30px;
+                border:1px solid green;
+                background-color: green;
+
+                border-radius:8px; 
+             }
+
+
+
+
+            .first3{
+                position: absolute;
+                top:300px;               
+                width:134px;
+                height:135px;
+                border:33px solid rgb(78, 112, 206);
+            }
+
+
+            .sq9{                
+                margin:10px 0 0 10px;
+                height:30px;
+                width:30px;
+                border-radius:8px;
+                border:1px solid rgb(78, 112, 206);
+                background-color: rgb(78, 112, 206);
+             }
+             .sq10{                
+                margin:-33px 0 0 95px;
+                height:30px;
+                width:30px;               
+                border-radius:8px;
+                border:1px solid rgb(78, 112, 206);
+                background-color: rgb(78, 112, 206);
+             }
+              .sq11{                
+                margin:50px 0 0 10;
+                height:30px;
+                width:30px;
+                border:1px solid rgb(78, 112, 206);
+                background-color: rgb(78, 112, 206);
+
+                border-radius:8px;
+             }
+             .sq12{                
+                margin:-33px 0 0 95;
+                height:30px;
+                width:30px;
+                border:1px solid rgb(78, 112, 206);
+                background-color: rgb(78, 112, 206);
+
+                border-radius:8px; 
+             }
+            .first4{
+                position: absolute;
+                margin-left:300px;
+                top:300px;               
+                width:134px;
+                height:135px;
+                border:33px solid rgb(255, 230, 0);
+            }
+
+            .sq13{                
+                margin:10px 0 0 10px;
+                height:30px;
+                width:30px;
+                border-radius:8px;
+                border:1px solid rgb(255, 230, 0);
+                background-color: rgb(255, 230, 0);
+             }
+             .sq14{                
+                margin:-33px 0 0 95px;
+                height:30px;
+                width:30px;               
+                border-radius:8px;
+                border:1px solid rgb(255, 230, 0);
+                background-color: rgb(255, 230, 0);
+             }
+              .sq15{                
+                margin:50px 0 0 10;
+                height:30px;
+                width:30px;
+                border:1px solid rgb(255, 230, 0);
+                background-color: rgb(255, 230, 0);
+
+                border-radius:8px;
+             }
+             .sq16{                
+                margin:-33px 0 0 95;
+                height:30px;
+                width:30px;
+                border:1px solid rgb(255, 230, 0);
+                background-color: rgb(255, 230, 0);
+
+                border-radius:8px; 
+             
+             }
+
+             .incon{
+                position:absolute;
+                margin:199px 0 0 199px;
+                height:100px;
+                width:100px;
+                border :1px solid rgb(207, 207, 207);
+             }
+             .f1{
+                position: relative;
+                margin:-10px 70px 0px -94px;
+                border-left:70px solid transparent;
+                border-bottom: 70px solid transparent;
+                border-right: 70px solid red;
+                rotate:45deg;
+             }
+             .f2{
+                position: relative;
+                margin:30px 70px 0px -45px;
+                border-left:70px solid transparent;
+                border-bottom: 70px solid transparent;
+                border-right: 70px solid rgb(78, 112, 206);
+                rotate:-45deg;
+             }
+             .f3{
+                position: relative;
+                margin:-220px 70px 0px 5px;
+                border-left:70px solid transparent;
+                border-bottom: 70px solid transparent;
+                border-right: 70px solid green;
+                rotate:135deg;
+             }
+             .f4{
+                position: relative;
+                margin:30px 70px 0px 55px;
+                border-left:70px solid transparent;
+                border-bottom: 70px solid transparent;
+                border-right: 70px solid rgb(255, 230, 0);
+                rotate:-135deg;
+             }
+
+             .red{
+                background-color: rgb(236, 13, 13);
+             }
+             .green{
+                background-color:green;
+             }
+             .blue{
+                background-color:rgb(78, 112, 206) ;
+             }
+             .yellow{
+                background-color:rgb(255, 230, 0) ;
+             }
+            </style>
+    </head>
+    <body>
+        <div class="first1">
+            <div class="sq1"></div>
+            <div class="sq2"></div>
+            <div class="sq3"></div>
+            <div class="sq4"></div>
+        </div>
+        <div class="first2">
+            <div class="sq5"></div>
+            <div class="sq6"></div>
+            <div class="sq7"></div>
+            <div class="sq8"></div>
+        </div>
+        <div class="first3">
+            <div class="sq9"></div>
+            <div class="sq10"></div>
+            <div class="sq11"></div>
+            <div class="sq12"></div>
+        </div>
+        <div class="first4">
+            <div class="sq13"></div>
+            <div class="sq14"></div>
+            <div class="sq15"></div>
+            <div class="sq16"></div>
+        </div>
+
+        <div class="incon">
+            <div class="f1"></div>
+            <div class="f2"></div>
+            <div class="f3"></div>
+            <div class="f4"></div>
+        </div>
+        <table border="1" width="500" height="500">
+           <tr>
+            <th colspan="6" rowspan="6"></th>
+            <th></th>    
+            <th></th>
+            <th></th>
+            <th colspan="6" rowspan="6"></th>
+           </tr>
+            <tr>
+                <th></th>
+                <th class="green"></th>
+                <th class="green"></th>
+            </tr>
+            <tr>
+                <th></th>
+                <th class="green"></th>
+                <th></th>
+            </tr>
+            <tr>
+                <th></th>
+                <th class="green"></th>
+                <th></th>
+            </tr>
+           
+            <tr>
+                <th></th>
+                <th class="green"></th>
+                <th></th>
+            </tr>
+            <tr>
+                <th></th>
+                <th class="green"></th>
+                <th></th>
+            </tr>
+            <tr>
+                <th></th>
+                <th class="red"></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th rowspan="3" colspan="3"></th>
+                
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+               
+                <th></th>
+                <th class="red"></th>
+                <th class="red"></th>
+                <th class="red"></th>
+                <th class="red"></th>
+                <th class="red"></th>
+                
+                <th class="yellow"></th>
+                <th class="yellow"></th>
+                <th class="yellow"></th>
+                <th class="yellow"></th>
+                <th class="yellow"></th>
+                
+                <th></th>
+            </tr>
+            <tr>
+               
+                <th></th>
+                <th ></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th class="yellow"></th>
+                <th></th>
+            </tr>
+            <tr>
+                <th colspan="6" rowspan="6"></th>
+                <th></th>    
+                <th class="blue"></th>
+                <th ></th>
+                <th colspan="6" rowspan="6"></th>
+               </tr>
+                <tr>
+                    <th></th>
+                    <th class="blue"></th>
+                    <th></th>
+                </tr>
+                
+                <tr>
+                    <th></th>
+                    <th class="blue"></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th class="blue"></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th class="blue"></th>
+                    <th class="blue"></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+        </table>
+    </body>
+</html>
